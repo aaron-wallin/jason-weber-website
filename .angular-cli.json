@@ -46,7 +46,8 @@
         "./assets/js/plugins/owl-carousel-rtl.js",
         "./assets/js/plugins/style-switcher-rtl.js",
         "./assets/js/plugins/revolution-slider.js",
-        "./assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"
+        "./assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js",
+        "./assets/js/indexstartup.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-// import './assets/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js';
-// import './assets/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js';
-
+import { SectionIntroComponent } from './sections/section.intro.component';
 
 @Component({
   selector: 'app-root',
