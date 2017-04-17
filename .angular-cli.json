@@ -47,6 +47,11 @@
         "./assets/js/plugins/style-switcher-rtl.js",
         "./assets/js/plugins/revolution-slider.js",
         "./assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js",
+
+        "./assets/plugins/jPlayer/jquery.jplayer.min.js",
+        "./assets/plugins/jPlayer/createplaylist.js",
+        "./assets/plugins/jPlayer/add-on/jplayer.playlist.min.js",
+
         "./assets/js/indexstartup.js"
       ],
       "environmentSource": "environments/environment.ts",

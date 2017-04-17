@@ -7,12 +7,19 @@ import { AppComponent } from './app.component';
 
 import { SectionIntroComponent } from './sections/section.intro.component';
 import { SectionAboutComponent } from './sections/section.about.component';
+import { SectionBioComponent } from './sections/section.bio.component';
+import { SectionGigsComponent } from './sections/section.gigs.component';
+import { SectionBookingsComponent } from './sections/section.bookings.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SectionIntroComponent,
-    SectionAboutComponent
+    SectionAboutComponent,
+    SectionBioComponent,
+    SectionGigsComponent,
+    SectionBookingsComponent
   ],
   imports: [
     BrowserModule,

@@ -7,4 +7,16 @@ jQuery(document).ready(function () {
             OwlCarousel.initOwlCarousel();
             StyleSwitcher.initStyleSwitcher();
             RevolutionSlider.initRSfullScreen();
+            PlaylistCreator.init();
         });
+
+/*
+$(document).ready(function () {
+            generatePlaylistClassicJazz();
+            generatePlaylistDanceMusic();
+            generatePlaylistSmoothJazz();
+            generatePlaylistWeddingCeremony();
+            generatePlaylistLive();
+            generatePlaylistLatinJazz();
+        });
+        */
