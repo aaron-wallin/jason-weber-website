@@ -10,6 +10,7 @@ import { SectionAboutComponent } from './sections/section.about.component';
 import { SectionBioComponent } from './sections/section.bio.component';
 import { SectionGigsComponent } from './sections/section.gigs.component';
 import { SectionBookingsComponent } from './sections/section.bookings.component';
+import { SectionAlbumsComponent } from './sections/section.albums.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SectionBookingsComponent } from './sections/section.bookings.component'
     SectionAboutComponent,
     SectionBioComponent,
     SectionGigsComponent,
-    SectionBookingsComponent
+    SectionBookingsComponent,
+    SectionAlbumsComponent
   ],
   imports: [
     BrowserModule,
