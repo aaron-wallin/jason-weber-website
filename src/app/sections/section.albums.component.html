@@ -8,11 +8,11 @@
                 <p>A busy artist performing live several hundred times every year, Jason Weber regularly gets into the studio
                     to write and record his own material.
                     <br/>Jason's albums are available for purchase on Google Play, Amazon Music, iTunes, and CDBaby!</p>
+                <!--
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-6">
                         <a target="_blank" href="https://play.google.com/store/music/artist/Jason_Weber?id=Atqclh5obi56f42zte5n6huiuty">
-                        <img width="60" src="http://jasonweber.net/media/rokgallery/2/272cf3ee-360c-4130-c971-7d0a8a2655de/3e6a2ea9-6ac8-4006-de25-354a0d50a0f6.png"
-                        />
+                        <img width="60" src="http://jasonweber.net/media/rokgallery/2/272cf3ee-360c-4130-c971-7d0a8a2655de/3e6a2ea9-6ac8-4006-de25-354a0d50a0f6.png"/>                        
                     </a>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
@@ -34,43 +34,19 @@
                     </a>
                     </div>
                 </div>
+                -->
 
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-10.jpg">
+                    <div *ngFor="let a of albumList" class="col-md-3 col-sm-6" style="padding: 10px;">
+                        <img src={{a.imgUrl}} width="200" height="200"><br>
+                        <button type="button" class="btn-u btn-brd btn-brd-hover btn-u-light">iTunes</button>
+                        <button type="button" class="btn-u btn-brd btn-brd-hover btn-u-light">CD Baby</button>
                     </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-9.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-8.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-7.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-6.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-5.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-4.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-3.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-2.jpg">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/img/covers/originals/jw-album-1.jpg">
-                    </div>
-                </div>
+                </div>               
             </div>
 
 
-<!--
+            <!--
             <div class="cube-portfolio">
 
                 <div id="grid-container" class="cbp-l-grid-gallery">

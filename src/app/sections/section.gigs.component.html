@@ -13,11 +13,27 @@
                     <table class="table table-striped">
                         <tbody>
                             <tr *ngFor="let c of calendarEvents" id={{c.id}}>
-                                <td><h3 style="font-weight:bold;"><i>{{c.start.dateTime | date:'short'}}</i></h3></td>
+                                <!--<td><h3 style="font-weight:bold;"><i>{{c.start.dateTime | date:'short'}}</i></h3></td>-->
                                 <td>
+                                    <h5>{{c.start.dateTime | date:'MMM d'}}</h5>
+                                </td>
+                                <td>
+                                    <h5>{{c.start.dateTime | date:'EEE'}}</h5>
+                                </td>
+                                <td>
+                                    <h5>{{c.start.dateTime | date:'shortTime'}}</h5>
+                                </td>
+                                <td>
+                                    <h5 style="font-weight:bold;">{{c.summary}}</h5>
+                                    <a href="https://www.google.com/maps/place/{{c.location}}">{{c.location}}</a>
+                                </td>
+                                <!--
+                                <td>
+                                    <h3>{{c.start.dateTime | date:'fullDate'}} - {{c.start.dateTime | date:'shortTime'}}</h3>
                                     <h2>{{c.summary}}</h2>
                                     <h4><a href="https://www.google.com/maps/place/{{c.location}}">{{c.location}}</a></h4>
                                 </td>
+                                -->
                             </tr>
                         </tbody>
                     </table>
