@@ -1432,9 +1432,10 @@ a.btn-u-xs {
    background: #59b795;
 }
 
-.btn-u.btn-brd.btn-u-light {
+.btn-u.btn-brd.btn-u-light {  
   color: #fff;
   border-color: #fff;
+  background: #000; /*aw: added this*/
 }
 .btn-u.btn-brd.btn-u-light:hover {
   border-color: #fff;

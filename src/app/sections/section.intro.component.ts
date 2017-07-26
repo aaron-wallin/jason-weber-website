@@ -10,6 +10,7 @@ import { DataAccess } from '../services/dataaccess.service';
 export class SectionIntroComponent implements OnInit {
   title = 'intro works!';
   public calendarEvent: any = {};
+  public slideInfo: any[] = [];
 
   constructor(private _dataAccess: DataAccess){}
 
@@ -17,7 +18,6 @@ export class SectionIntroComponent implements OnInit {
     this._dataAccess.getNextEvent()
         .subscribe(
           r => {
-            console.log(r);
             this.calendarEvent = r;
           },
           e => console.log(e));

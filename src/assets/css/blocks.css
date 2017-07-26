@@ -4514,7 +4514,8 @@
 }
 
 .tp-banner-container a.re-btn-brd {
-  background: none;
+  /*background: none; //aw: removed*/
+  background: #000;
   border: solid 1px #fff;
 }
 
