@@ -9,7 +9,7 @@ import { DataAccess } from '../services/dataaccess.service';
 
 export class SectionIntroComponent implements OnInit {
   title = 'intro works!';
-  public calendarEvent: any = {};
+  public calendarEvent: any = {summary: '', location: '', start: {datetime: ''}};
   public slideInfo: any[] = [];
 
   constructor(private _dataAccess: DataAccess){}
