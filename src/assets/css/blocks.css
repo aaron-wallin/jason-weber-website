@@ -1,10 +1,4 @@
-/*
- * Template Name: Unify - Responsive Bootstrap Template
- * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
- * Version: 1.9
- * Author: @htmlstream
- * Website: http://htmlstream.com
-*/
+
 
 /*[-----*** TABLE OF CONTENT ***-----]
 
@@ -158,6 +152,7 @@
 }
 
 /*Promo Background Images*/
+/*
 .promo-bg-img-v1 {
   background: url(../img/bg/img1.jpg) no-repeat;
   background-size: cover;
@@ -178,6 +173,7 @@
   background: url(../img/bg/img6.html) no-repeat;
   background-size: cover;
 }
+*/
 
 /*Promo Background Fixed*/
 .promo-bg-fixed {
@@ -401,11 +397,13 @@
 
 /*Breadcrumbs v2
 ------------------------------------*/
+/*
 .breadcrumbs-v2 {
   text-align: center;
   position: relative;
   background: url(../img/bg/11.html) no-repeat center;
 }
+*/
 
 .breadcrumbs-v2-in {
   padding: 80px 0;
@@ -2237,6 +2235,7 @@
 ----------------------------------------------------*/
 /* Image Backgrounds v1
 ------------------------------------*/
+/*
 .bg-image-v1 {
   width: 100%;
   height: auto;
@@ -2245,6 +2244,7 @@
   background: url(../img/bg/11.html) repeat fixed;
   background-size: cover;
 }
+*/
 
 .bg-image-v1:before {
   top: 0;

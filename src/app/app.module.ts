@@ -12,6 +12,8 @@ import { SectionBioComponent } from './sections/section.bio.component';
 import { SectionGigsComponent } from './sections/section.gigs.component';
 import { SectionBookingsComponent } from './sections/section.bookings.component';
 import { SectionAlbumsComponent } from './sections/section.albums.component';
+import { SectionEquipmentComponent } from './sections/section.equipment.component';
+import { SectionContactComponent } from './sections/section.contact.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { SectionAlbumsComponent } from './sections/section.albums.component';
     SectionBioComponent,
     SectionGigsComponent,
     SectionBookingsComponent,
-    SectionAlbumsComponent
+    SectionAlbumsComponent,
+    SectionEquipmentComponent,
+    SectionContactComponent
   ],
   imports: [
     BrowserModule,
