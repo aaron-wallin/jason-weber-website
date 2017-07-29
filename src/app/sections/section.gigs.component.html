@@ -1,60 +1,37 @@
 <!-- Gigs Section -->
-    <section id="gigs">
-        <div class="block-v1">
-            <div>
-                <div class="container">
-                    <div class="title-v1">
-                        <h1>Gig Calendar</h1>
-                        <div class="alert">
-                        <p>Jason Weber performs an average of 300 shows per year with his own group as well as free-lancing with a number of other artists &amp; bands.</p>
-                        </div>
-                    </div>                    
-
-                    <table class="table table-striped">
-                        <tbody>
-                            <tr *ngFor="let c of calendarEvents" id={{c.id}}>
-                                <!--<td><h3 style="font-weight:bold;"><i>{{c.start.dateTime | date:'short'}}</i></h3></td>-->
-                                <td>
-                                    <h5>{{c.start.dateTime | date:'MMM d'}}</h5>
-                                </td>
-                                <td>
-                                    <h5>{{c.start.dateTime | date:'EEE'}}</h5>
-                                </td>
-                                <td>
-                                    <h5>{{c.start.dateTime | date:'shortTime'}}</h5>
-                                </td>
-                                <td>
-                                    <h5 style="font-weight:bold;">{{c.summary}}</h5>
-                                    <a href="https://www.google.com/maps/place/{{c.location}}">{{c.location}}</a>
-                                </td>
-                                <!--
-                                <td>
-                                    <h3>{{c.start.dateTime | date:'fullDate'}} - {{c.start.dateTime | date:'shortTime'}}</h3>
-                                    <h2>{{c.summary}}</h2>
-                                    <h4><a href="https://www.google.com/maps/place/{{c.location}}">{{c.location}}</a></h4>
-                                </td>
-                                -->
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <!--
-                    <div class="row" *ngFor="let c of calendarEvents">
-                        <div class="col-md-3">               
-                            <h3 style="font-weight:bold;"><i>{{c.start.dateTime | date:'short'}}</i></h3>
-                        </div>
-                        <div class="col-md-9">               
-                            <h2>{{c.summary}}</h2>
-                            <h4><a href="https://www.google.com/maps/place/{{c.location}}">{{c.location}}</a></h4>
-                            <hr/>
-                        </div>                        
+<section id="gigs">
+    <div class="block-v1">
+        <div>
+            <div class="container">
+                <div class="title-v1">
+                    <h1>Gig Calendar</h1>
+                    <div class="alert">
+                        <p>Jason Weber performs an average of 300 shows per year with his own group as well as free-lancing
+                            with a number of other artists &amp; bands.</p>
                     </div>
-                    -->
-                        
-                    <!--
-                    <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;mode=MONTH&amp;height=640&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=leoe8d9dl69kci867gbdvhid84%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="640" frameborder="0" scrolling="no"></iframe>                
-                    -->
                 </div>
+
+                <table class="table table-striped">
+                    <tbody>
+                        <tr *ngFor="let c of calendarEvents" id={{c.id}}>
+                            <td>
+                                <h5>{{c.start.dateTime | date:'MMM d'}}</h5>
+                            </td>
+                            <td>
+                                <h5>{{c.start.dateTime | date:'EEE'}}</h5>
+                            </td>
+                            <td>
+                                <h5>{{c.start.dateTime | date:'shortTime'}}</h5>
+                            </td>
+                            <td>
+                                <h5 style="font-weight:bold;">{{c.summary}}</h5>
+                                <a href="https://www.google.com/maps/place/{{c.location}}">{{c.location}}</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<!-- Gigs Section -->

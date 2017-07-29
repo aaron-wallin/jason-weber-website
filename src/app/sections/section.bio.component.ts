@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './section.bio.component.html'
 })
 
-export class SectionBioComponent {
-  title = 'bio works!';
-}
+export class SectionBioComponent { }

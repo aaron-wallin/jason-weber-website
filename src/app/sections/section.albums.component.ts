@@ -6,39 +6,36 @@ import { Component } from '@angular/core';
 })
 
 export class SectionAlbumsComponent {
-  title = 'intro works!';
   public albumList: any = [
     {
-      imgUrl: "assets/img/covers/originals/jw-album-10.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-10.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-9.jpg"
-    },{
-      imgUrl: "assets/img/covers/originals/jw-album-8.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-9.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-7.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-8.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-6.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-7.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-5.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-6.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-4.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-5.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-3.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-4.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-2.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-3.jpg'
     },
     {
-      imgUrl: "assets/img/covers/originals/jw-album-1.jpg"
+      imgUrl: 'assets/img/covers/originals/jw-album-2.jpg'
     },
-
+    {
+      imgUrl: 'assets/img/covers/originals/jw-album-1.jpg'
+    },
   ];
-
-
 }

@@ -36,6 +36,6 @@ import { SectionContactComponent } from './sections/section.contact.component';
   providers: [],
   bootstrap: [
     AppComponent
-    ]
+  ]
 })
 export class AppModule { }

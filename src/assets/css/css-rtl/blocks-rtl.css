@@ -7,7 +7,7 @@
   overflow: hidden;
   padding: 10px 0 6px;
   border-bottom: solid 1px #eee;
-  background: url(../../img/patterns/breadcrumbs.html) repeat;
+  /*background: url(../../img/patterns/breadcrumbs.html) repeat; aw: removed this*/
 }
 
 .breadcrumbs h1 {
@@ -1461,7 +1461,7 @@
 .call-action-v2 {
   padding: 50px 0;
   text-align: center;
-  background: url(../../img/patterns/16.html);
+  /*background: url(../../img/patterns/16.html); aw: removed this*/
 }
 
 .call-action-v2 h2 {
@@ -1837,7 +1837,7 @@
   height: auto;
   padding: 50px 0;
   position: relative;
-  background: url(../../img/bg/7.jpg) repeat fixed;
+ /* background: url(../../img/bg/7.jpg) repeat fixed; aw: removed this*/
 }
 
 .bg-image-v2:before {
@@ -2070,7 +2070,7 @@
 .parallax-counter-v2 {
   position: relative;
   padding: 80px 0 60px;
-  background: url(../../img/patterns/16.html) repeat fixed;
+  /*background: url(../../img/patterns/16.html) repeat fixed; aw: removed this*/
 }
 
 .parallax-counter-v2:after {
@@ -2214,7 +2214,7 @@
   overflow: hidden;
   text-align: center;
   position: relative;
-  background: url(../../img/bg/19.jpg) 50% 0 fixed;
+  /*background: url(../../img/bg/19.jpg) 50% 0 fixed; aw: removed this*/
 }
 
 .parallax-counter-v4:after {
@@ -2254,7 +2254,7 @@
 ------------------------------------*/
 .flat-bg-block-v1 {
   padding: 40px 0;
-  background: url(../../img/patterns/16.html) repeat;
+  /*background: url(../../img/patterns/16.html) repeat; aw: removed this*/
 }
 
 .flat-bg-block-v1 .checked-list.first-child {
@@ -2838,7 +2838,7 @@
 }
 
 .interactive-slider-v1.img-v2 {
-  background: url(../../img/bg/19.jpg) no-repeat;
+  /*background: url(../../img/bg/19.jpg) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }

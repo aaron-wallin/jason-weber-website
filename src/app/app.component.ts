@@ -7,6 +7,4 @@ import { SectionIntroComponent } from './sections/section.intro.component';
   styleUrls: ['./app.component.css'
   ]
 })
-export class AppComponent {
-  title = 'app works!';
-}
+export class AppComponent { }

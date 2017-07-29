@@ -8,18 +8,17 @@ import { DataAccess } from '../services/dataaccess.service';
 })
 
 export class SectionIntroComponent implements OnInit {
-  title = 'intro works!';
-  public calendarEvent: any = {summary: '', location: '', start: {datetime: ''}};
+  public calendarEvent: any = { summary: '', location: '', start: { datetime: '' } };
   public slideInfo: any[] = [];
 
-  constructor(private _dataAccess: DataAccess){}
+  constructor(private _dataAccess: DataAccess) { }
 
   ngOnInit(): void {
     this._dataAccess.getNextEvent()
-        .subscribe(
-          r => {
-            this.calendarEvent = r;
-          },
-          e => console.log(e));
+      .subscribe(
+      r => {
+        this.calendarEvent = r;
+      },
+      e => console.log(e));
   }
 }

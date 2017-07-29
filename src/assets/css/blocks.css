@@ -147,9 +147,11 @@
   background: url(../img/patterns/5.png) repeat;
 }
 
+/*
 .promo-bg-pattern-v1-light {
   background: url(../img/patterns/16.html) repeat;
 }
+ aw: removed this*/
 
 /*Promo Background Images*/
 /*
@@ -245,13 +247,14 @@
   overflow: hidden;
   padding: 10px 0 6px;
   border-bottom: solid 1px #eee;
-  background: url(../img/patterns/breadcrumbs.html) repeat;
+  /*background: url(../img/patterns/breadcrumbs.html) repeat; aw: removed this*/
 }
-
+/*
 .video-business-img1 {
   background: url(../video/youtube-business/video-business-img1.html) no-repeat center;
-  background-size: cover; /*Scales the background image to be as large as possible*/
+  background-size: cover; /*Scales the background image to be as large as possible
 }
+ aw: removed this*/
 
 .breadcrumbs h1 {
   color: #666;
@@ -349,7 +352,7 @@
 .breadcrumbs-v1 {
   padding: 100px 0;
   position: relative;
-  background: url(../img/breadcrumbs/img1.html) center no-repeat;
+  /*background: url(../img/breadcrumbs/img1.html) center no-repeat; aw: removed this*/
   background-size: cover; /*Scales the background image to be as large as possible*/
 }
 
@@ -442,19 +445,19 @@
 }
 
 .breadcrumbs-v3.img-v1 {
-  background: url(../img/breadcrumbs/img1.html) no-repeat;
+  /*background: url(../img/breadcrumbs/img1.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .breadcrumbs-v3.img-v2 {
-  background: url(../img/breadcrumbs/img2.html) no-repeat;
+  /*background: url(../img/breadcrumbs/img2.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .breadcrumbs-v3.img-v3 {
-  background: url(../img/breadcrumbs/img3.html) no-repeat;
+  /*background: url(../img/breadcrumbs/img3.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
@@ -1921,7 +1924,7 @@
 .call-action-v2 {
   padding: 50px 0;
   text-align: center;
-  background: url(../img/patterns/16.html);
+  /*background: url(../img/patterns/16.html); aw: removed this*/
 }
 
 .call-action-v2 h2 {
@@ -2263,7 +2266,7 @@
   height: auto;
   padding: 50px 0;
   position: relative;
-  background: url(../img/bg/7.jpg) repeat fixed;
+ /* background: url(../img/bg/7.jpg) repeat fixed; aw: removed this*/
 }
 
 .bg-image-v2:before {
@@ -2320,7 +2323,7 @@
   height: 100%;
   content: " ";
   position: absolute;
-  background: url(../img/patterns/gridtile.png) repeat;
+  /*background: url(../img/patterns/gridtile.png) repeat; aw: removed this */ 
 }
 
 /*Parallax Quote Inner*/
@@ -2499,7 +2502,7 @@
 .parallax-counter-v2 {
   position: relative;
   padding: 80px 0 60px;
-  background: url(../img/patterns/16.html) repeat fixed;
+  /*background: url(../img/patterns/16.html) repeat fixed; aw: removed this*/
 }
 
 .parallax-counter-v2:after {
@@ -2560,7 +2563,7 @@
 	overflow: hidden;
 	text-align: center;
 	position: relative;
-	background: url(../img/bg/25.html) 50% 0 fixed;
+	/*background: url(../img/bg/25.html) 50% 0 fixed; aw: removed this*/
 }
 
 .parallax-counter-v3:after {
@@ -2643,7 +2646,7 @@
   overflow: hidden;
   text-align: center;
   position: relative;
-  background: url(../img/bg/19.jpg) 50% 0 fixed;
+  /*background: url(../img/bg/19.jpg) 50% 0 fixed; aw: removed this*/
 }
 
 .parallax-counter-v4:after {
@@ -2684,7 +2687,7 @@
 ----------------------------------------------------*/
 .flat-bg-block-v1 {
   padding: 40px 0;
-  background: url(../img/patterns/16.html) repeat;
+  /*background: url(../img/patterns/16.html) repeat; aw: removed this*/
 }
 
 .flat-bg-block-v1 .checked-list.first-child {
@@ -3497,19 +3500,19 @@
 }
 
 .interactive-slider-v1.img-v1 {
-  background: url(../img/bg/18.html) no-repeat;
+  /*background: url(../img/bg/18.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .interactive-slider-v1.img-v2 {
-  background: url(../img/bg/19.jpg) no-repeat;
+  /*background: url(../img/bg/19.jpg) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .interactive-slider-v1.img-v3 {
-  background: url(../img/bg/18.html) no-repeat;
+  /*background: url(../img/bg/18.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
@@ -3556,7 +3559,7 @@
   padding: 200px 0;
   position: relative;
   text-align: center;
-  background: url(../img/bg/18.html) no-repeat;
+  /*background: url(../img/bg/18.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
@@ -3566,31 +3569,31 @@
 }
 
 .interactive-slider-v2.img-v1 {
-  background: url(../img/bg/25.html) no-repeat;
+ /* background: url(../img/bg/25.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .interactive-slider-v2.img-v2 {
-  background: url(../img/bg/14.html) no-repeat;
+ /* background: url(../img/bg/14.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .interactive-slider-v2.img-v3 {
-  background: url(../img/bg/img8.html) no-repeat;
+  /*background: url(../img/bg/img8.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .interactive-slider-v2.img-v4 {
-  background: url(../img/bg/img9.html) no-repeat;
+  /*background: url(../img/bg/img9.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
 
 .interactive-slider-v2.intro-promo-img {
-  background: url(../img/intro/promo.html) no-repeat;
+  /*background: url(../img/intro/promo.html) no-repeat; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
@@ -5179,7 +5182,7 @@
   padding: 100px 0;
   position: relative;
   text-align: center;
-  background: #333 url(../img/bg/19.jpg) 50% 0 fixed;
+  /*background: #333 url(../img/bg/19.jpg) 50% 0 fixed; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
@@ -5250,7 +5253,7 @@
 .clients-section {
   padding: 60px 0;
   position: relative;
-  background: #333 url(../img/bg/7.jpg) 50% fixed;
+  /*background: #333 url(../img/bg/7.jpg) 50% fixed; aw: removed this*/
   background-size: cover;
   background-position: center center;
 }
@@ -6282,7 +6285,7 @@
 .purchase {
 	padding: 25px 0 30px;
 	border-bottom: solid 1px #eee;
-	background: url(../img/patterns/breadcrumbs.html) repeat;
+	/*background: url(../img/patterns/breadcrumbs.html) repeat;aw: removed this*/
 }
 
 .purchase p {
@@ -6759,7 +6762,7 @@ a.thumbnail {
 	padding: 40px 0;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
-	background: url(../img/breadcrumbs.html) repeat;
+	/*background: url(../img/breadcrumbs.html) repeat; aw: removed this*/
 }
 
 /*Gallery Page
@@ -6959,7 +6962,7 @@ ul.blog-tags a:hover i {
 
 .slider-promo-info-bg {
 	padding: 25px 20px 20px;
-	background: url(../img/bg-black.html) repeat;
+	/*background: url(../img/bg-black.html) repeat; aw: removed this*/
 }
 
 .slider-promo-info span.big-size {
@@ -7715,7 +7718,7 @@ img.img-mouse {
 .service-info {
 	position: relative;
 	padding: 40px 0 50px;
-	background: url(../img/patterns/17.html) repeat;
+/*background: url(../img/patterns/17.html) repeat; aw: removed this*/
 }
 
 .service-info .info-description {
@@ -7766,7 +7769,7 @@ img.img-mouse {
 ------------------------------------*/
 .testimonials-bs {
   padding: 50px 0;
-  background: url(../img/bg/16.html) 50% 0 repeat fixed;
+  /*background: url(../img/bg/16.html) 50% 0 repeat fixed; aw: removed this*/
 }
 
 .testimonials-bs .headline-center-v2 span.author {

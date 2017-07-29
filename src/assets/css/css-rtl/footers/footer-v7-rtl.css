@@ -26,7 +26,7 @@
   height: 100%; 
   content: " ";
   position: absolute;
-  background: url(../../img/patterns/gridtile.html) repeat;
+  /*background: url(../../img/patterns/gridtile.html) repeat; aw: removed this*/
 }
 
 /*Contacts Title*/

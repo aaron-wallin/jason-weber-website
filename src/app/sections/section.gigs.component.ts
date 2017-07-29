@@ -8,18 +8,16 @@ import { DataAccess } from '../services/dataaccess.service';
 })
 
 export class SectionGigsComponent implements OnInit {
-  title = 'intro works!';
   public calendarEvents: any;
 
-  constructor(private _dataaccess: DataAccess) {}
+  constructor(private _dataaccess: DataAccess) { }
 
   ngOnInit(): void {
     this._dataaccess.getCalendarData()
-        .subscribe(
-          r => {
-            console.log(r);
-            this.calendarEvents = r;
-          },
-          e => console.log(e));
+      .subscribe(
+      r => {
+        this.calendarEvents = r;
+      },
+      e => console.log(e));
   }
 }

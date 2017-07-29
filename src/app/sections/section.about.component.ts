@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './section.about.component.html'
 })
 
-export class SectionAboutComponent {
-  title = 'intro works!';
-}
+export class SectionAboutComponent { }
