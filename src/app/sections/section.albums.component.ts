@@ -5,8 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './section.albums.component.html'
 })
 
-export class SectionAlbumsComponent {
+export class SectionAlbumsComponent {  
   public albumList: any = [
+    {
+      imgUrl: 'assets/img/covers/originals/jw-album-11.jpg'
+    },
     {
       imgUrl: 'assets/img/covers/originals/jw-album-10.jpg'
     },
@@ -37,5 +40,5 @@ export class SectionAlbumsComponent {
     {
       imgUrl: 'assets/img/covers/originals/jw-album-1.jpg'
     },
-  ];
+  ];   
 }
