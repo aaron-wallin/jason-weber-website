@@ -33,18 +33,21 @@
         "./assets/plugins/counter/waypoints.min.js",
         "./assets/plugins/counter/jquery.counterup.min.js",
         "./assets/plugins/owl-carousel2/owl.carousel.min.js",
-        "./assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js",
-        "./assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js",
+        
         "./assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js",
         "./assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js",
         "./assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js",
+
+        "./assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js",
+        "./assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js",        
+        "./assets/js/plugins/style-switcher-rtl.js",
 
         "./assets/js/one.app.js",
         "./assets/js/forms/login.js",
         "./assets/js/forms/contact.js",
         "./assets/js/plugins/pace-loader.js",
         "./assets/js/plugins/owl-carousel-rtl.js",
-        "./assets/js/plugins/style-switcher-rtl.js",
+        
         "./assets/js/plugins/revolution-slider.js",
         "./assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js",
 
