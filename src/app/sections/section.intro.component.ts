@@ -10,6 +10,7 @@ import { DataAccess } from '../services/dataaccess.service';
 export class SectionIntroComponent implements OnInit {
   public calendarEvent: any = { summary: '', location: '', start: { datetime: '' } };
   public slideInfo: any[] = [];
+  public albumInfo: any;
 
   constructor(private _dataAccess: DataAccess) { }
 
@@ -20,5 +21,7 @@ export class SectionIntroComponent implements OnInit {
         this.calendarEvent = r;
       },
       e => console.log(e));
+
+    this.albumInfo = this._dataAccess.getAlbumInfo();
   }
 }

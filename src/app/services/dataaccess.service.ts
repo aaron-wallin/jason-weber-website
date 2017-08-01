@@ -34,4 +34,64 @@ export class DataAccess {
         return this._http.get(this._baseCalendarUrl + '&maxResults=1&orderBy=startTime&singleEvents=true&timeMin=' + this.currentDateString)
             .map(res => res.json().items[0]);
     }
+
+    getAlbumInfo(): any {
+        return [
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-11.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber7',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-10.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-9.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber6',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-8.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-7.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-6.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-5.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-4.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-3.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-2.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+            {
+                imgUrl: 'assets/img/covers/originals/jw-album-1.jpg',
+                cdBabyUrl: 'https://store.cdbaby.com/cd/jasonweber8',
+                iTunesUrl: 'https://itunes.apple.com/us/artist/jason-weber/id5105199'
+            },
+        ];
+    }
 }

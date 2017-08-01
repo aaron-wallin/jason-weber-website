@@ -42,27 +42,25 @@
                     <!-- LAYERS -->
                     <div class="tp-caption rs-caption-1 sft start" data-x="center" data-hoffset="0" data-y="100" data-speed="800" data-start="1500"
                         data-easing="Back.easeInOut" data-endspeed="300" style="background:#000;">
-                        SEE WHERE JASON'S PLAYING NEXT
+                        CHECK OUT JASON'S LATEST RELEASE                      
                     </div>
 
                     <!-- LAYER -->
                     <div class="tp-caption rs-caption-2 sft" data-x="center" data-hoffset="0" data-y="200" data-speed="1000" data-start="2500"
                         data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
                         style="z-index: 6">
-                        <div style="background:#000; padding:10px;">
-                            {{calendarEvent.summary}}
-                            <br>{{calendarEvent.start.dateTime | date:'fullDate'}}
-                            <br>{{calendarEvent.start.dateTime | date:'shortTime'}}
+                        <div style="padding:0px;">
+                            <app-album-item [album] = "albumInfo[0]" [showButtons] = "false"></app-album-item>                           
                         </div>
                     </div>
 
-                    <!-- LAYER -->
-                    <div class="tp-caption rs-caption-3 sft" data-x="center" data-hoffset="0" data-y="360" data-speed="800" data-start="3500"
+                    <!-- LAYER -->                    
+                    <div class="tp-caption rs-caption-3 sft" data-x="center" data-hoffset="0" data-y="430" data-speed="800" data-start="3500"
                         data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
                         style="z-index: 6">
-                        <span class="page-scroll"><a href="#{{calendarEvent.id}}" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a></span>
-                        <span class="page-scroll"><a href="#bookings" class="btn-u btn-brd btn-brd-hover btn-u-light">Event Booking</a></span>
+                        <span class="page-scroll"><a href="#albums" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a></span>                        
                     </div>
+                    
                 </li>
 
                 <!-- SLIDE 3 -->
@@ -81,9 +79,8 @@
                         data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
                         style="z-index: 6">
                         <div style="background:#000; padding:10px;">
-                            {{calendarEvent.summary}}
-                            <br>{{calendarEvent.start.dateTime | date:'fullDate'}}
-                            <br>{{calendarEvent.start.dateTime | date:'shortTime'}}
+                            Jason performs hundreds of times every year,<br>
+                            book Jason for your next event now
                         </div>
                     </div>
 
@@ -91,8 +88,8 @@
                     <div class="tp-caption rs-caption-3 sfb" data-x="center" data-hoffset="0" data-y="370" data-speed="800" data-start="3500"
                         data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
                         style="z-index: 6">
-                        <span class="page-scroll"><a href="#{{calendarEvent.id}}" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a></span>
                         <span class="page-scroll"><a href="#bookings" class="btn-u btn-brd btn-brd-hover btn-u-light">Event Booking</a></span>
+                        <!--<span class="page-scroll"><a href="#bookings" class="btn-u btn-brd btn-brd-hover btn-u-light">Event Booking</a></span>-->
                     </div>
                 </li>
             </ul>

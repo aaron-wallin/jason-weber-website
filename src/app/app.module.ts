@@ -14,6 +14,7 @@ import { SectionBookingsComponent } from './sections/section.bookings.component'
 import { SectionAlbumsComponent } from './sections/section.albums.component';
 import { SectionEquipmentComponent } from './sections/section.equipment.component';
 import { SectionContactComponent } from './sections/section.contact.component';
+import { SectionAlbumItemComponent } from './sections/section.albums.album-item.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { SectionContactComponent } from './sections/section.contact.component';
     SectionBookingsComponent,
     SectionAlbumsComponent,
     SectionEquipmentComponent,
-    SectionContactComponent
+    SectionContactComponent,
+    SectionAlbumItemComponent
   ],
   imports: [
     BrowserModule,

@@ -10,11 +10,7 @@
                     <br/>Jason's albums are available for purchase on Google Play, Amazon Music, iTunes, and CDBaby!</p>
 
                 <div class="row">
-                    <div *ngFor="let a of albumList" class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="padding: 10px;">
-                        <img src={{a.imgUrl}} width="200" height="200"><br>
-                        <button type="button" class="btn-u btn-brd btn-brd-hover btn-u-light">iTunes</button>
-                        <button type="button" class="btn-u btn-brd btn-brd-hover btn-u-light">CD Baby</button>
-                    </div>
+                    <app-album-item *ngFor="let a of albumList" [album] = "a"></app-album-item>                    
                 </div>
             </div>
         </div>
