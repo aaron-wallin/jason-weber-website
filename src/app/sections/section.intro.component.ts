@@ -18,10 +18,15 @@ export class SectionIntroComponent implements OnInit {
     this._dataAccess.getNextEvent()
       .subscribe(
       r => {
-        this.calendarEvent = r;
+        //this.calendarEvent = r;
+        this.filterResults(r);
       },
       e => console.log(e));
 
     this.albumInfo = this._dataAccess.getAlbumInfo();
+  }
+
+  private filterResults(events: any) {
+    this.calendarEvent = events.filter(i => i.summary.toLowerCase() !== 'private party')[0];
   }
 }

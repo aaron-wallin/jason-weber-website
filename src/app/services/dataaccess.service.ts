@@ -31,8 +31,8 @@ export class DataAccess {
 
     getNextEvent(): any {
         // tslint:disable-next-line:max-line-length
-        return this._http.get(this._baseCalendarUrl + '&maxResults=1&orderBy=startTime&singleEvents=true&timeMin=' + this.currentDateString)
-            .map(res => res.json().items[0]);
+        return this._http.get(this._baseCalendarUrl + '&maxResults=10&orderBy=startTime&singleEvents=true&timeMin=' + this.currentDateString)
+            .map(res => res.json().items);
     }
 
     getAlbumInfo(): any {
